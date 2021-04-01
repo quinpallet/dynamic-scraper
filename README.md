@@ -16,7 +16,6 @@ Dynamic scraper package for Python
 - (bs4 >= 0.0.1)
 - fake-useragent >= 0.1.11
 - selenium >= 3.141.0
-- fake-useragent >= 0.1.11
 
 ## Usage
 
