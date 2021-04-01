@@ -34,9 +34,10 @@ print([dom.text for dom in scrape.domlist])
 ```
 
 > OUTPUT:
->
+> ```
 > [<span class="fQMqQTGJTbIMxjQwZA2zk _3tGRl6x9iIWRiFTkKl3kcR">時短要請甘かった 首相が反省</span>, <span class="fQMqQTGJTbIMxjQwZA2zk _3tGRl6x9iIWRiFTkKl3kcR">PCR結果待つ間 2人自宅で死亡</span>, <span class="fQMqQTGJTbIMxjQwZA2zk _3tGRl6x9iIWRiFTkKl3kcR">家に感染中傷ビラ 偏見やめて</span>, <span class="fQMqQTGJTbIMxjQwZA2zk _3tGRl6x9iIWRiFTkKl3kcR">旭川医大に職員 驚きあきれる</span>, <span class="fQMqQTGJTbIMxjQwZA2zk _3tGRl6x9iIWRiFTkKl3kcR">トランプ氏 フロリダに事務所</span>, <span class="fQMqQTGJTbIMxjQwZA2zk _3tGRl6x9iIWRiFTkKl3kcR">給食に異物週3回 保護者怒り</span>, <span class="fQMqQTGJTbIMxjQwZA2zk _3tGRl6x9iIWRiFTkKl3kcR">ヒルマイルド 商標巡り声明</span>, <span class="fQMqQTGJTbIMxjQwZA2zk _3tGRl6x9iIWRiFTkKl3kcR">歌手・BENI 第1子男児を出産</span>]
 > ['時短要請甘かった 首相が反省', 'PCR結果待つ間 2人自宅で死亡', '家に感染中傷ビラ 偏見やめて', '旭川医大に職員 驚きあきれる', 'トランプ氏 フロリダに事務所', '給食に異物週3回 保護者怒り', 'ヒルマイルド 商標巡り声明', '歌手・BENI 第1子男児を出産']
+> ```
 
 
 ## Note
