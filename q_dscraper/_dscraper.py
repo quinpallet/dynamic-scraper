@@ -13,6 +13,7 @@ from fake_useragent import UserAgent
 
 from ._logger import getLogger
 
+
 # ログ設定
 logfilename = os.path.splitext(os.path.basename(__file__))[0] + '.log'
 logger = getLogger(os.path.basename(__file__), saveName=logfilename)
@@ -34,15 +35,15 @@ class DyScrape:
         self.__method = method
         self.__domlist = None
         self.__datetime = None
+        self.__useragent = UserAgent()
 
     # 静的ページの走査
     def fetch(self, selector: str = None, dselector: str = None) -> None:
         logger.info('FETCH: STARTED')
 
         # リクエストヘッダ設定（疑似ユーザーエージェント）
-        useragent = UserAgent().random
         headers = {
-            'User-Agent': useragent
+            'User-Agent': self.__useragent.random
         }
         # リクエストパラメータ設定
         if self.__params is not None:

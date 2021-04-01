@@ -39,6 +39,11 @@ print([dom.text for dom in scrape.domlist])
 > ['時短要請甘かった 首相が反省', 'PCR結果待つ間 2人自宅で死亡', '家に感染中傷ビラ 偏見やめて', '旭川医大に職員 驚きあきれる', 'トランプ氏 フロリダに事務所', '給食に異物週3回 保護者怒り', 'ヒルマイルド 商標巡り声明', '歌手・BENI 第1子男児を出産']
 
 
+## Note
+
+The first scraping will result in fake_useragent's timeout error. This issue will not occur from the second time onwards.
+
+
 ## License
 
 &copy; 2021 [Ken Kurosaki](https://github.com/quinpallet).<br>
